@@ -1,4 +1,4 @@
-# Network Vulnerability Scanner
+# Tool_Box (Network Vulnerability Scanner)
 
 A Python-based Network Vulnerability Scanner designed to identify open ports and running services on target hosts within a network. This tool is useful for understanding the security posture of a network by detecting potential vulnerabilities.
 
@@ -24,8 +24,8 @@ brew install nmap
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/network-vulnerability-scanner.git
-   cd network-vulnerability-scanner
+   git clone https://github.com/utee/tool_box.git
+   cd tool_box
    ```
 
 2. Create and activate a virtual environment:
@@ -86,13 +86,13 @@ Results successfully saved to scan_results.json
 
 ## File Structure
 ```
-network_vulnerability_scanner/
-├── venv/                  # Virtual environment
-├── main.py                # Main Python script
-├── scanner.py             # Scanner functionality
-├── report_generator.py    # Export scan results
-├── requirements.txt       # Dependencies
-└── README.md              # Project description
+tool_box/
+├── venv/                  
+├── main.py                
+├── scanner.py             
+├── report_generator.py    
+├── requirements.txt       
+└── README.md              
 ```
 
 ## Disclaimer
